@@ -111,3 +111,7 @@ ro.romstats.tframe=3
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.du.buildnum=3.8
 
+# Terminal Emulator
+PRODUCT_COPY_FILES +=  \
+    vendor/du/proprietary/Term.apk:system/app/Term.apk \
+    vendor/du/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
