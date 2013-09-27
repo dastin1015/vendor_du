@@ -1,5 +1,3 @@
-# AOKP Extras
-
 on boot
     # Run sysinit
     start sysinit

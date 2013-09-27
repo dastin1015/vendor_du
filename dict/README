@@ -1,5 +1,3 @@
-Welcome to the AOKP Dictionary (KangDict)...
-
 ###################################################
 # all changes to the word list should be          #
 # accompanied with a binary update                #
@@ -9,9 +7,9 @@ to compile a new dictionary and install it properly example for English:
 
 . build/envsetup.sh && lunch
 makedict_aosp \
-   -c vendor/aokp/dict/en_whitelist.xml \
-   -s vendor/aokp/dict/en_words.xml \
-   -d vendor/aokp/overlay/dictionaries/packages/inputmethods/LatinIME/java/res/raw/main_en.dict \
+   -c vendor/du/dict/en_whitelist.xml \
+   -s vendor/du/dict/en_words.xml \
+   -d vendor/du/overlay/dictionaries/packages/inputmethods/LatinIME/java/res/raw/main_en.dict \
    -3
 
 ###################################################

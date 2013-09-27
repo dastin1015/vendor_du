@@ -1,26 +1,31 @@
 SUPERUSER_EMBEDDED := true
 
 # Common overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/common
+PRODUCT_PACKAGE_OVERLAYS += vendor/du/overlay/common
 
 # Common dictionaries
-PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/dictionaries
+PRODUCT_PACKAGE_OVERLAYS += vendor/du/overlay/dictionaries
 
 PRODUCT_PACKAGES += \
-    AOKPtips \
+    About \
     AppWidgetPicker \
     CellBroadcastReceiver \
+    DashClock \
+    DirtWalls \
+    DUChangelog \
+    DU-Stats \
+    EVWidgets \
     LatinImeDictionaryPack \
+    LockClock \
     mGerrit \
     Microbes \
-    PermissionsManager \
+    PerformanceControl \
     ROMControl \
     Stk \
     Superuser \
     su \
-    SwagPapers \
     Torch \
-    UnicornPorn
+    Trebuchet
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
@@ -36,20 +41,20 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Installer
 PRODUCT_COPY_FILES += \
-    vendor/aokp/prebuilt/common/bin/persist.sh:install/bin/persist.sh \
-    vendor/aokp/prebuilt/common/etc/persist.conf:system/etc/persist.conf
+    vendor/du/prebuilt/common/bin/persist.sh:install/bin/persist.sh \
+    vendor/du/prebuilt/common/etc/persist.conf:system/etc/persist.conf
 
 PRODUCT_COPY_FILES += \
-    vendor/aokp/prebuilt/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so \
-    vendor/aokp/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf
+    vendor/du/prebuilt/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so \
+    vendor/du/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf
 
 # init.d
 PRODUCT_COPY_FILES += \
-    vendor/aokp/prebuilt/common/etc/init.local.rc:root/init.aokp.rc \
-    vendor/aokp/prebuilt/common/etc/init.d/00start:system/etc/init.d/00start \
-    vendor/aokp/prebuilt/common/etc/init.d/01sysctl:system/etc/init.d/01sysctl \
-    vendor/aokp/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf \
-    vendor/aokp/prebuilt/common/bin/sysinit:system/bin/sysinit
+    vendor/du/prebuilt/common/etc/init.local.rc:root/init.aokp.rc \
+    vendor/du/prebuilt/common/etc/init.d/00start:system/etc/init.d/00start \
+    vendor/du/prebuilt/common/etc/init.d/01sysctl:system/etc/init.d/01sysctl \
+    vendor/du/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf \
+    vendor/du/prebuilt/common/bin/sysinit:system/bin/sysinit
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
@@ -77,15 +82,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
 
 # Inherit common build.prop overrides
--include vendor/aokp/configs/common_versions.mk
+-include vendor/du/configs/common_versions.mk
 
 # T-Mobile theme engine
--include vendor/aokp/configs/themes_common.mk
+-include vendor/du/configs/themes_common.mk
 
 # common boot animation
 PRODUCT_COPY_FILES += \
-    vendor/aokp/prebuilt/bootanimation/bootanimation.zip:system/media/bootanimation.zip
+    vendor/du/prebuilt/bootanimation/bootanimation.zip:system/media/bootanimation.zip
 
 # World APNs
 PRODUCT_COPY_FILES += \
-    vendor/aokp/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
+    vendor/du/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
