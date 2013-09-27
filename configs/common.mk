@@ -106,11 +106,8 @@ ro.romstats.url=http://stats.dirtyunicorns.com/ \
 ro.romstats.name=DirtyUnicorns \
 ro.romstats.version=3.8 \
 ro.romstats.tframe=3
+
 # DU OTA
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.du.buildnum=3.8
 
-# Terminal Emulator
-PRODUCT_COPY_FILES +=  \
-    vendor/du/proprietary/Term.apk:system/app/Term.apk \
-    vendor/du/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
