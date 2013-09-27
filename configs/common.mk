@@ -94,3 +94,13 @@ PRODUCT_COPY_FILES += \
 # World APNs
 PRODUCT_COPY_FILES += \
     vendor/du/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
+    
+#DUStats
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.romstats.url=http://stats.dirtyunicorns.com/ \
+ro.romstats.name=DirtyUnicorns \
+ro.romstats.version=3.8 \
+ro.romstats.tframe=3
+# DU OTA
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.du.buildnum=3.8
