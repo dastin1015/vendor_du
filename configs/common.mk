@@ -8,16 +8,21 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/du/overlay/dictionaries
 
 PRODUCT_PACKAGES += \
     About \
+    Apollo \
     AppWidgetPicker \
+    audio_effects.conf \
     CellBroadcastReceiver \
+    CMFileManager \
+    CMWimaxSettings \
     DashClock \
     DirtWalls \
+    DSPManager \
     DUChangelog \
     DU-Stats \
     EVWidgets \
     LatinImeDictionaryPack \
     LockClock \
-    mGerrit \
+    libcyanogen-dsp \
     Microbes \
     PerformanceControl \
     ROMControl \
@@ -104,3 +109,8 @@ ro.romstats.tframe=3
 # DU OTA
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.du.buildnum=3.8
+
+# Terminal Emulator
+PRODUCT_COPY_FILES +=  \
+    vendor/du/proprietary/Term.apk:system/app/Term.apk \
+    vendor/du/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
