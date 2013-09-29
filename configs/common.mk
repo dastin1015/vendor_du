@@ -14,6 +14,7 @@ PRODUCT_PACKAGES += \
     CellBroadcastReceiver \
     CMFileManager \
     CMWimaxSettings \
+    BlueBalls \
     DashClock \
     DirtWalls \
     DSPManager \
@@ -27,6 +28,7 @@ PRODUCT_PACKAGES += \
     PerformanceControl \
     ROMControl \
     Stk \
+    SunBeam \
     Superuser \
     su \
     Torch \
