@@ -5,4 +5,5 @@ add_lunch_combo du_m7ul-userdebug
 add_lunch_combo du_mako-userdebug
 add_lunch_combo du_hercules-userdebug
 add_lunch_combo du_l900-userdebug
+add_lunch_combo du_exhilarate-userdebug
 
