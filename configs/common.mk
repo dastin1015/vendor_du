@@ -59,6 +59,11 @@ PRODUCT_COPY_FILES += \
     vendor/du/prebuilt/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so \
     vendor/du/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf
 
+# Copy DU Host File
+PRODUCT_COPY_FILES += \
+    vendor/du/prebuilt/common/etc/hosts.alt:system/etc/hosts.alt \
+    vendor/du/prebuilt/common/etc/hosts.og:system/etc/hosts.og
+
 # init.d
 PRODUCT_COPY_FILES += \
     vendor/du/prebuilt/common/etc/init.local.rc:root/init.aokp.rc \
