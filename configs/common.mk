@@ -120,7 +120,7 @@ ro.romstats.tframe=3
 
 # DU OTA
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.du.buildnum=3.8
+	ro.du.buildnum=1
 
 # Terminal Emulator
 PRODUCT_COPY_FILES +=  \
