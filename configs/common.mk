@@ -22,6 +22,7 @@ PRODUCT_PACKAGES += \
     DU-Stats \
     EVWidgets \
     HALO \
+    HostsFileManager \
     LatinImeDictionaryPack \
     LockClock \
     libcyanogen-dsp \
