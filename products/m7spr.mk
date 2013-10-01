@@ -1,4 +1,6 @@
+#Common du configs
 $(call inherit-product, vendor/du/configs/common.mk)
+$(call inherit-product, vendor/du/configs/cdma.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/htc/m7spr/full_m7spr.mk)

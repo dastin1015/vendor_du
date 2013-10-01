@@ -3,6 +3,7 @@ $(call inherit-product, device/samsung/toroplus/full_toroplus.mk)
 
 # Inherit du common bits
 $(call inherit-product, vendor/du/configs/common.mk)
+$(call inherit-product, vendor/du/configs/cdma.mk)
 
 # Tuna Overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/du/overlay/tuna
