@@ -11,6 +11,7 @@ PRODUCT_PACKAGES += \
     Apollo \
     AppWidgetPicker \
     audio_effects.conf \
+    BluetoothExt \
     CellBroadcastReceiver \
     CMFileManager \
     CMWimaxSettings \
@@ -20,6 +21,7 @@ PRODUCT_PACKAGES += \
     DSPManager \
     DUChangelog \
     DU-Stats \
+    DU-Updater \
     EVWidgets \
     HALO \
     HostsFileManager \
