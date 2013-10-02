@@ -19,5 +19,8 @@ PRODUCT_MANUFACTURER := LGE
 
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=occam BUILD_FINGERPRINT=google/occam/mako:4.3/JWR66V/737497:user/release-keys PRIVATE_BUILD_DESC="occam-user 4.3 JWR66V 737497 release-keys" BUILD_NUMBER=573038
 
+# Add settings app extension
+PRODUCT_PACKAGES += MakoParts
+
 PRODUCT_COPY_FILES += \
     vendor/du/prebuilt/bootanimation/bootanimation_720_1280.zip:system/media/bootanimation-alt.zip
