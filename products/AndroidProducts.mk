@@ -6,4 +6,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/t769.mk \
     $(LOCAL_DIR)/exhilarate.mk \
     $(LOCAL_DIR)/d2cri.mk \
-    $(LOCAL_DIR)/toroplus.mk
+    $(LOCAL_DIR)/toroplus.mk \
+    $(LOCAL_DIR)/d2spr.mk \
+    $(LOCAL_DIR)/d710.mk

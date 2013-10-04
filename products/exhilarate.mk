@@ -1,6 +1,9 @@
 # Inherit AOSP device configuration for exhilarate.
 $(call inherit-product, device/samsung/exhilarate/full_exhilarate.mk)
 
+## overlays
+DEVICE_PACKAGE_OVERLAYS += vendor/du/overlay/exhilarate
+
 # Inherit common product files.
 $(call inherit-product, vendor/du/configs/common.mk)
 
