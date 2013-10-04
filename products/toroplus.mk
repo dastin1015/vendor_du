@@ -2,14 +2,11 @@
 $(call inherit-product, device/samsung/toroplus/full_toroplus.mk)
 
 # Inherit du common bits
-$(call inherit-product, vendor/du/configs/common.mk)
-$(call inherit-product, vendor/du/configs/cdma.mk)
+-include vendor/du/configs/common.mk 
 
-# Tuna Overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/du/overlay/tuna
+#CDMA
+-include vendor/du/configs/cdma.mk
 
-# CDMATools
-PRODUCT_PACKAGE_OVERLAYS += vendor/du/overlay/CDMATools
 
 # Setup device specific product configuration.
 PRODUCT_NAME := du_toroplus

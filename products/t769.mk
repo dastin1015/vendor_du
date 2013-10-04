@@ -1,6 +1,9 @@
 # Inherit AOSP device configuration for t769.
 $(call inherit-product, device/samsung/t769/full_t769.mk)
 
+## overlays
+DEVICE_PACKAGE_OVERLAYS += vendor/du/overlay/t769
+
 # Inherit common product files.
 $(call inherit-product, vendor/du/configs/common.mk)
 
