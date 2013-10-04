@@ -17,6 +17,5 @@ PRODUCT_MANUFACTURER := Samsung
 
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=SGH-T769 TARGET_DEVICE=SGH-T769 BUILD_FINGERPRINT="samsung/SGH-T769/SGH-T769:4.1.2/JZO54K/UVLH5:user/release-keys" PRIVATE_BUILD_DESC="SGH-T769-user 4.1.2 JZO54K UVLH5 release-keys"
 
-# boot animation
 PRODUCT_COPY_FILES += \
-	vendor/du/prebuilt/bootanimation/bootanimation_480_800.zip:system/media/bootanimation-alt.zip
+    vendor/du/prebuilt/bootanimation/bootanimation_480_800.zip:system/media/bootanimation.zip

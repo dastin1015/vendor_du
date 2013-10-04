@@ -18,7 +18,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="manta-user 4.2.1 JOP40C 527662 release-keys"
 
 PRODUCT_COPY_FILES += \
-    vendor/du/prebuilt/bootanimation/bootanimation_720_1280.zip:system/media/bootanimation-alt.zip
+    vendor/du/prebuilt/bootanimation/bootanimation_720_1280.zip:system/media/bootanimation.zip
+
 # USB
 #ADDITIONAL_DEFAULT_PROPERTIES += persist.sys.usb.config=mass_storage,adb
 #ADDITIONAL_DEFAULT_PROPERTIES += persist.sys.usb.config=mtp,adb

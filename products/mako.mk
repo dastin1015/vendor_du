@@ -23,4 +23,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=occam BUILD_FINGERPRINT=google/occa
 PRODUCT_PACKAGES += MakoParts
 
 PRODUCT_COPY_FILES += \
-    vendor/du/prebuilt/bootanimation/bootanimation_720_1280.zip:system/media/bootanimation-alt.zip
+    vendor/du/prebuilt/bootanimation/bootanimation_270_1280.zip:system/media/bootanimation.zip
