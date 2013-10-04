@@ -22,7 +22,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT="samsung/d2cri/d2cri:4.1.2/JZO54K/R530CVVBMD6:user/release-keys" \
     PRIVATE_BUILD_DESC="d2cri-user 4.1.2 JZO54K R530CVVBMD6 release-keys"
 
-
-# boot animation
 PRODUCT_COPY_FILES += \
-vendor/du/prebuilt/bootanimation/bootanimation_720_1280.zip:system/media/bootanimation-alt.zip
+    vendor/du/prebuilt/bootanimation/bootanimation_270_1280.zip:system/media/bootanimation.zip
