@@ -106,10 +106,6 @@ PRODUCT_COPY_FILES += packages/wallpapers/LivePicker/android.software.live_wallp
 # T-Mobile theme engine
 -include vendor/du/configs/themes_common.mk
 
-# common boot animation
-PRODUCT_COPY_FILES += \
-    vendor/du/prebuilt/bootanimation/bootanimation.zip:system/media/bootanimation.zip
-
 # World APNs
 PRODUCT_COPY_FILES += \
     vendor/du/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
