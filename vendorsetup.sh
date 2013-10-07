@@ -12,4 +12,7 @@ add_lunch_combo du_toroplus-userdebug
 add_lunch_combo du_d2spr-userdebug
 add_lunch_combo du_d710-userdebug
 add_lunch_combo du_shooter-userdebug
-
+add_lunch_combo du_d2att-userdebug
+add_lunch_combo du_d2tmo-userdebug
+add_lunch_combo du_d2usc-userdebug
+add_lunch_combo du_d2vzw-userdebug
