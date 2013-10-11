@@ -31,6 +31,7 @@ PRODUCT_PACKAGES += \
     Microbes \
     PerformanceControl \
     ROMControl \
+    SoundRecorder \
     Stk \
     SunBeam \
     Superuser \
