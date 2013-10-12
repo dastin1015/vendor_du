@@ -14,4 +14,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/d2tmo.mk \
     $(LOCAL_DIR)/d2usc.mk \
     $(LOCAL_DIR)/d2vzw.mk \
-    $(LOCAL_DIR)/jewel.mk
+    $(LOCAL_DIR)/jewel.mk \
+    $(LOCAL_DIR)/fascinatemtd.mk
