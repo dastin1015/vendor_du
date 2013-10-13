@@ -15,6 +15,9 @@ PRODUCT_MANUFACTURER := HTC
 # Set build fingerprint / ID / Product Name ect.
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=jewel BUILD_FINGERPRINT="htc/jewel/jewel:4.1.1/JRO03C/147243.3:user/release-keys" PRIVATE_BUILD_DESC="3.16.651.3 CL147243 release-keys"
 
+## overlays
+DEVICE_PACKAGE_OVERLAYS += vendor/du/overlay/jewel
+
 # Release name
 PRODUCT_RELEASE_NAME := jewel
 
