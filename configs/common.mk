@@ -30,10 +30,10 @@ PRODUCT_PACKAGES += \
     libcyanogen-dsp \
     Microbes \
     PerformanceControl \
+    PhaseBeam \
     ROMControl \
     SoundRecorder \
     Stk \
-    SunBeam \
     Superuser \
     su \
     Torch \
