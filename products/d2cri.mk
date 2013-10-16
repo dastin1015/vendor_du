@@ -7,7 +7,7 @@ $(call inherit-product, vendor/du/configs/cdma.mk)
 # Inherit common product files.
 $(call inherit-product, vendor/du/configs/common.mk)
 
-PRODUCT_PACKAGE_OVERLAYS += vendor/du/overlay/d2-common
+PRODUCT_PACKAGE_OVERLAYS += vendor/du/overlay/d2
 
 # Setup device specific product configuration.
 PRODUCT_NAME := du_d2cri
@@ -23,4 +23,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="d2cri-user 4.1.2 JZO54K R530CVVBMD6 release-keys"
 
 PRODUCT_COPY_FILES += \
-    vendor/du/prebuilt/bootanimation/bootanimation_270_1280.zip:system/media/bootanimation.zip
+    vendor/du/prebuilt/bootanimation/bootanimation_720_1280.zip:system/media/bootanimation.zip

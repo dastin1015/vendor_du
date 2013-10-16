@@ -7,7 +7,7 @@ $(call inherit-product, vendor/du/configs/gsm.mk)
 # Inherit common product files.
 $(call inherit-product, vendor/du/configs/common.mk)
 
-PRODUCT_PACKAGE_OVERLAYS += vendor/du/overlay/d2-common
+PRODUCT_PACKAGE_OVERLAYS += vendor/du/overlay/d2
 
 # Setup device specific product configuration.
 PRODUCT_NAME := du_d2tmo
