@@ -7,4 +7,7 @@
     <!-- Whether device has hardware buttons -->
     <bool name="has_advanced_settings">true</bool>
 
+    <!-- Whether device has button leds -->
+    <bool name="has_button_led">true</bool>
+
 </resources>
