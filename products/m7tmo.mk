@@ -10,7 +10,8 @@ DEVICE_PACKAGE_OVERLAYS += vendor/du/overlay/m7
 PRODUCT_BUILD_PROP_OVERRIDES += PPRODUCT_NAME=m7 BUILD_ID=JZO54K BUILD_FINGERPRINT="tmous/m7/m7:4.1.2/JZO54K/177101.16:user/release-keys" PRIVATE_BUILD_DESC="1.29.531.16 CL177101 release-keys"
 
 PRODUCT_COPY_FILES += \
-    vendor/du/prebuilt/bootanimation/bootanimation_1080_1920.zip:system/media/bootanimation.zip
+    vendor/du/prebuilt/bootanimation/bootanimation_1080_1920.zip:system/media/bootanimation.zip \
+    vendor/du/hybrid/hybrid_xxhdpi.conf:system/etc/beerbong/properties.conf
 
 # Device naming
 PRODUCT_DEVICE := m7tmo
