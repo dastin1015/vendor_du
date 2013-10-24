@@ -8,6 +8,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/d710 \
     $(LOCAL_DIR)/exhilarate \
     $(LOCAL_DIR)/fascinatemtd \
+    $(LOCAL_DIR)/flo \
     $(LOCAL_DIR)/hercules \
     $(LOCAL_DIR)/jewel \
     $(LOCAL_DIR)/l900 \
